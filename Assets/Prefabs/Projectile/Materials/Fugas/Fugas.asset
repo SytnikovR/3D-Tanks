@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 931eab752a641a04388928867fa4bf9b, type: 3}
+  m_Name: Fugas
+  m_EditorClassIdentifier: 
+  type: 1
+  projectilePrefab: {fileID: 4272673682787498122, guid: a2d9945084d6cd34094e98e159e75ddd,
+    type: 3}
+  icon: {fileID: 21300000, guid: 3db857ad67f86744cb502596d01ff54b, type: 3}
+  velocity: 600
+  mass: 0.001
+  impactForce: 5000
+  damage: 140
+  damageSpred: 0.25
+  caliber: 60
+  armorPenetration: 40
+  armorPenetrationSpread: 0.25
+  normalizationAngle: 5
+  ricochetAngle: 90
